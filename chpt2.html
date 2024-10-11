@@ -1,0 +1,235 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/467a7e8a84.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Store</title>
+  </head>
+  <body>
+    <!-- This is a navbar -->
+    <header class="flex h-16 items-center justify-between px-8">
+      <h1 class="h-fit text-2xl font-bold font-serif">LUXURY</h1>
+      <div
+        class="h-fit flex gap-10 text-sm text-gray-500 font-serif max-md:gap-4 text-[10px]"
+      >
+        <a href="#" class="hover:underline decoration-1 underline-offset-4"
+          >Home</a
+        >
+        <a href="#" class="hover:underline decoration-1 underline-offset-4"
+          >Overview</a
+        >
+        <a href="#" class="hover:underline decoration-1 underline-offset-4"
+          >Video</a
+        >
+        <a href="#" class="hover:underline decoration-1 underline-offset-4"
+          >Testimonial</a
+        >
+        <a href="#" class="hover:underline decoration-1 underline-offset-4"
+          >Products</a
+        >
+        <a href="#" class="hover:underline decoration-1 underline-offset-4"
+          >FAQs</a
+        >
+      </div>
+    </header>
+    <main class="h-screen relative">
+      <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/d804ee8b68a357e8801e83e7cf96c997aebc5297/watch1.jpg" class="h-screen w-screen" />
+      <div class="absolute top-[25%] left-[15%] flex flex-col gap-8">
+        <div>
+          <h1
+            class="text-8xl text-white font-medium"
+            style="font-family: Mirza"
+          >
+            Perfect <span class="text-orange-400">Watch </span>for
+          </h1>
+          <h1
+            class="text-8xl text-white font-medium"
+            style="font-family: Mirza"
+          >
+            perfect people.
+          </h1>
+        </div>
+
+        <p class="font-serif text-lg text-white w-[500px]">
+          Discover captivating stories, expand your knowledge, and embark on new
+          adventures.
+        </p>
+        <button
+          class="text-start text-black font-semibold bg-white w-fit py-3 px-7 rounded-full hover:bg-gray-900 hover:text-white"
+        >
+          ORDER NOW!
+        </button>
+      </div>
+    </main>
+    <!-- This is Product Section -->
+    <section
+      class="h-[350px] flex justify-center items-center gap-12 max-xl:flex-col max-xl:h-[550px]"
+    >
+      <div class="w-[500px] flex flex-col gap-10">
+        <h1 class="font-thin text-5xl" style="font-family: Mirza">
+          Product Overview
+        </h1>
+        <p>
+          Welcome to the elegant world of Reddy. Our watches blend exquisite
+          craftsmanship with timeless design, making them the perfect accessory
+          for any occasion. Each timepiece is meticulously handcrafted to ensure
+          superior quality and precision. Explore our collection and discover
+          the artistry that defines us.
+        </p>
+      </div>
+      <div class="w-[500px] text-base" style="font-family: Mirza">
+        <ul style="list-style-type: circle; list-style-position: inside">
+          <li>
+            <span class="font-semibold">Premium Materials:</span>
+            Crafted with the finest materials, our watches feature high-quality
+            stainless steel cases and scratch-resistant sapphire crystal,
+            ensuring durability and longevity.
+          </li>
+          <li>
+            <span class="font-semibold">Precision Timekeeping:</span> Our
+            watches are equipped with precise quartz movements or automatic
+            movements, guaranteeing accurate timekeeping for the modern
+            individual.
+          </li>
+          <li>
+            <span class="font-semibold">Elegant Design:</span> The sleek and
+            minimalist design of our watches exudes sophistication and class.
+            From the slim profile to the carefully crafted dials, every detail
+            is meticulously designed to make a statement.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- This is video Section -->
+    <section
+      class="h-screen bg-[#3d3a38] text-white flex flex-col justify-center gap-5"
+      style="font-family: Mirza"
+    >
+      <h1 class="mx-auto w-fit text-6xl">Video Promo</h1>
+      <p class="mx-auto w-[630px] text-center">
+        Condimentum amet quam venenatis nulla sed sem lacus cursus sit. Sed
+        nulla felis aliquet elementum egestas suspendisse nisl faucibus nulla
+        aliquet est ac dictum auctor.
+      </p>
+      <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/9e41b0179562e88af2058f52960f65170bf8013a/watch3.jpg" class="w-[800px] mx-auto" />
+    </section>
+    <!-- This is Features Section  -->
+    <section
+      class="h-screen max-xl:h-auto bg-[#f8f8f8] flex flex-col items-center justify-center gap-7"
+      style="font-family: Mirza"
+    >
+      <h1 class="text-5xl w-fit">Features of Watch</h1>
+      <div
+        class="w-[1100px] max-xl:w-[900px] max-lg:w-[600px] flex flex-wrap justify-around"
+      >
+        <div class="relative w-[340px] group hover:cursor-pointer">
+          <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/9e41b0179562e88af2058f52960f65170bf8013a/prod6.jpg " class="w-full" />
+          <span
+            class="text-white absolute top-[3%] left-[1%] gap-3 hidden group-hover:flex duration-700"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+          <h1 class="font-medium text-2xl">Superior Craftsmanship</h1>
+          <p class="">
+            Each Reddy watch is meticulously crafted with precision and
+            attention to detail, reflecting the artistry of expert watchmakers.
+          </p>
+        </div>
+        <div class="relative w-[340px] group hover:cursor-pointer">
+          <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/9e41b0179562e88af2058f52960f65170bf8013a/prod6.jpg " class="w-full" />
+          <span
+            class="text-white absolute top-[3%] left-[1%] gap-3 hidden group-hover:flex duration-700"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+          <h1 class="font-medium text-2xl">Attention to Detail</h1>
+          <p class="">
+            Every aspect of the Reddy watch showcases meticulous attention to
+            detail, from the finely engraved logo to the perfectly proportioned.
+          </p>
+        </div>
+        <div class="relative w-[340px] group hover:cursor-pointer">
+          <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/9e41b0179562e88af2058f52960f65170bf8013a/prod6.jpg" class="w-full" />
+          <span
+            class="text-white absolute top-[3%] left-[1%] gap-3 hidden group-hover:flex duration-700"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+          <h1 class="font-medium text-2xl">Elegant and Timeless Design</h1>
+          <p class="">
+            The Reddy watch features an elegant and timeless design,
+            characterized by clean lines, minimalistic dials, and a
+            sophisticated aesthetic.
+          </p>
+        </div>
+        <div class="relative w-[340px] group hover:cursor-pointer mt-8">
+          <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/9e41b0179562e88af2058f52960f65170bf8013a/prod6.jpg " class="w-full" />
+          <span
+            class="text-white absolute top-[3%] left-[1%] gap-3 hidden group-hover:flex duration-700"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+          <h1 class="font-medium text-2xl">Comfortable Fit</h1>
+          <p class="">
+            Designed with wearer comfort in mind, the Reddy watch offers a
+            comfortable fit on the wrist, making it suitable for prolonged wear.
+          </p>
+        </div>
+        <div class="relative w-[340px] group hover:cursor-pointer mt-8">
+          <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/9e41b0179562e88af2058f52960f65170bf8013a/prod6.jpg " class="w-full" />
+          <span
+            class="text-white absolute top-[3%] left-[1%] gap-3 hidden group-hover:flex duration-700"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+          <h1 class="font-medium text-2xl">Water-Resistance</h1>
+          <p class="">
+            The Reddy watch is water-resistant, providing protection against
+            water splashes and allowing you to wear it confidently in
+            situations.
+          </p>
+        </div>
+        <div class="relative w-[340px] group hover:cursor-pointer mt-8">
+          <img src="https://raw.githubusercontent.com/BoubakerSaif/Watch_Check/9e41b0179562e88af2058f52960f65170bf8013a/prod6.jpg " class="w-full" />
+          <span
+            class="text-white absolute top-[3%] left-[1%] gap-3 hidden group-hover:flex duration-700"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+          <h1 class="font-medium text-2xl">Interchangeable Straps</h1>
+          <p class="">
+            Customize your Reddy watch to match your personal style and mood.
+            The watch comes with interchangeable straps, allowing you switch.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-red-950 h-[300] w-[100%]  flex flex-col justify-center gap-4 items-center" >
+      <div>
+        <i class="fa-brands fa-instagram" style="font-size: 40px "></i>  
+        <i class="fa-brands fa-facebook" style="font-size: 40px"></i>    
+        <i class="fa-brands fa-whatsapp" style="font-size: 40px"></i> 
+      </div> 
+      <p class="font-Kanit text-l text-white">
+        copy right @nn
+      </p>                 
+    </footer>
+  </body>
+</html>
